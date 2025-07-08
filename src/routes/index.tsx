@@ -5,5 +5,5 @@ export const Route = createFileRoute('/')({
 })
 
 function RouteComponent() {
-  return <div>TanStack Start init!</div>
+  return <div className="min-h-screen w-full flex items-center justify-center">TanStack Start init!</div>
 }
