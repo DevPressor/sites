@@ -1,0 +1,10 @@
+# Node Modules
+node_modules
+
+# TanStack Cache and Output
+.nitro
+.output
+.tanstack
+
+# Env Files
+.env
