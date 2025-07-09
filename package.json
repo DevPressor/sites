@@ -8,7 +8,9 @@
     "ba:generate" : "pnpx @better-auth/cli@latest generate --output=./src/db/schema.ts",
     "db:generate" : "npx drizzle-kit generate",
     "db:migrate"  : "npx drizzle-kit migrate",
-    "db:push"     : "npx drizzle-kit push"
+    "db:push"     : "npx drizzle-kit push",
+    "db:studio"   : "npx drizzle-kit studio",
+    "dev:db" : "vite dev & npx drizzle-kit studio"
   },
   "keywords": [],
   "author": "",
